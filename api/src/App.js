@@ -14,6 +14,8 @@ function App() {
         console.log(res.data[1])
       })
       .catch((error) => console.log(error))
+
+    // eslint-disable-next-line no-undef
   }, [])
 
   return (
